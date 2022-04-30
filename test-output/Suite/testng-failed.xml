@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.homein.ExtendReportListener.ExtentReporterNG"/>
+    <listener class-name="com.homein.util.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Homein Smoke Test Cases(failed)">
+    <classes>
+      <class name="com.homein.testcases.SignupPageTest">
+        <methods>
+          <include name="verifySignupTest"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.homein.testcases.SignupPageTest -->
+    </classes>
+  </test> <!-- Homein Smoke Test Cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
