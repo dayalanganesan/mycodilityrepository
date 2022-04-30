@@ -3,16 +3,14 @@
 <suite name="Suite">
    
     <listeners>
-        <listener class-name="com.homein.ExtendReportListener.ExtentReporterNG" />
-        <listener class-name="com.homein.util.ListenerTest" />
+        <listener class-name="com.heroapp.ExtendReportListener.ExtentReporterNG" />
+        <listener class-name="com.heroapp.util.ListenerTest" />
     </listeners>
    
-   <test name="Homein Smoke Test Cases">
+   <test name="Heroapp Regression Test Cases">
             
         <classes>
-        	<class name="com.homein.testcases.LoginPageTest" />
-        	<class name="com.homein.testcases.HomePageTest" />
-        	<class name="com.homein.testcases.SignupPageTest" />
+        	<class name="com.heroapp.testcases.RegisterPageTest" />
         </classes>
         
     </test>
